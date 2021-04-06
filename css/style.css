@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+}
+
+/* body{
+    
+} */
+
+header{
+    background-color: gray;
+    /* padding: 10px; */
+    /* width: 100%; */
+    
+    
+}
+
+header img{
+    position: relative;
+    left: 155px;
+    top: 10px;
+    /* padding: 20px 0 20px 0; */
+   
+
+}
+
+header nav{
+    position: relative;
+    bottom: 40px;
+    margin-left: 90px;
+        
+}
+
+header nav ul{
+    position: relative;
+    left: 20%;
+    width: 70%;
+     
+    
+}
+
+header nav ul li{
+    display: inline-block;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: rgb(167, 165, 160);
+    
+}
+
+main img{
+    padding-left: 170px;
+    padding-top: 20px;
+}
+
+
+#images li{
+    display: inline-block;
+    /* margin-left: 90px; */
+    /* padding-right: 60px; */
+    /* float: left; */
+    width: 26%;
+    /* margin: 30px; */
+    vertical-align: middle;
+}
+
+
+#partOne{
+    height: 300px;
+    margin-bottom: 50px;
+}
+
+#partOne img{
+   
+    float: left;
+    /* padding-right: 40px ;
+    padding-left: 40px;
+    margin-right: 50px; */
+    width: 50%;
+    padding-top: 10px;
+    
+    
+}
+
+#partOne div{
+    height: 300px;
+    float: right;
+    width: 50%;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    margin-bottom: 30px;
+}
+
+#partOne div h3{
+    padding-top: 5px;
+    font-weight: 500;
+}
+
+#partOne div p{
+    /* text-align: justify; */
+    width:80%;
+    overflow: scroll;
+    height: 355px;
+  
+    
+   
+}
+
+#partOne button:hover{
+    background-color: black;
+    color: cornsilk;
+
+}
+footer{
+    margin-top: 30px;
+    padding-top: 100px;
+    background-color: gray;
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+
